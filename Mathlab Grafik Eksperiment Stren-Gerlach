@@ -1,0 +1,8 @@
+x=[15 30 45 60 75 90 105 120 135 150 165 180];
+y=[42 109 68 -8 45 75 118 146 182 122 113 182]
+plot(x,y)
+xlim([1 100])
+ylim([1 400])
+xlabel('waktu (t)')
+ylabel('jumlah partikel pada detektor')
+title('Grafik Eksperimen Stern-Gerlach')
